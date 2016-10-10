@@ -11,8 +11,9 @@ body {
 }
 
 .content {
-    width: 50%;
-    min-width: 500px;
+    width: 40%;
+    min-width: 300px;
+    cursor: default;
 }
 
 .content-header {
@@ -33,32 +34,19 @@ body {
     flex-direction: column;
 }
 
+.content-link-container {
+    margin-top: 4px;
+}
+
 .content-link {
     font-size: 22px;
     font-weight: 200;
     color: #00ab6b;
     text-decoration: none;
     margin-top: 4px;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .content-link:hover {
     opacity: 0.66;
     transition: opacity 300ms ease;
-}
-
-.card {
-    box-sizing: border-box;
-    border-radius: 3px;
-    background: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.04);
-    border: 1px solid rgba(0,0,0,.09);
-    min-height: 300px;
-    margin-top: 16px;
-}
-
-.card:hover {
-    border: 1px solid rgba(0,171,107,.19);
-    transition: border 300ms ease;
 }

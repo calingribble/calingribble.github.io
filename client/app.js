@@ -1,7 +1,0 @@
-class Mangler {
-    constructor(program) {
-        this.program = program;
-    }
-}
-
-new Mangler();
